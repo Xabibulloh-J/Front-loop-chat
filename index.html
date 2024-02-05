@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Front Loop</title>
+   <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+   <div class="chat-box">
+      <div class="chat-box__title-wrapper">
+         <h1 class="chat-box__title">MARK ZUCKERBERG</h1>
+         <button type="button" class="chat-box__button"></button>
+      </div>
+      <div class="chat-box__chat chat">
+         <h2 class="chat__title">TODAY</h2>
+         <div class="chat__message-wrapper">
+            <time datetime="2024-02-03 10:53" class="chat__time">10:53</time>
+            <span class="chat__text">Hi, Mark! I made a new design for Messenger App.</span>
+         </div>
+         <div class="chat__message-wrapper">
+            <time datetime="2024-02-03 10:57" class="chat__time">10:57</time>
+            <span class="chat__text">Yo! Send it to my assistsnt and we’ll review it during the year.</span>
+         </div>
+         <div class="chat__message-wrapper">
+            <time datetime="2024-02-03 11:03" class="chat__time">11:03</time>
+            <span class="chat__text">But Mark...</span>
+         </div>
+         <div class="chat__message-wrapper">
+            <span class="chat__text">You were blocked by the user.</span>
+         </div>
+         <form action="https://echo.htmlacademy.ru/courses" method="POST" autocomplete="off" class="chat__message-submit-wrapper">
+            <input 
+            type="text" 
+            class="chat__message-area"
+            name="user_message"
+            aria-label="enter your message"
+            placeholder="Enter your message"
+            required>
+            <button class="chat__message-submit">SEND</button>
+         </form>
+      </div>
+   </div>
+
+   <span class="strelka"></span>
+</body>
+</html>
